@@ -9,7 +9,25 @@ In this approach, the number of initial samples on the hypercube and the number 
 <img width="320" height="340" alt="1quidistance_reference_point_selection" src="https://github.com/user-attachments/assets/ef7948bc-ad85-41e0-ba21-2571a38b8888" />
 <img width="320" height="340" alt="parallel_reference_vector_construction" src="https://github.com/user-attachments/assets/e28a6173-e7d0-48db-a64f-d6db458560d0" />
 
+<p align="center">
+  <img src="sampling_in_cube.png" width="45%" />
+  <img src="projection_on_reference_hyperlane.png" width="45%" />
+</p>
 
+<p align="center">
+  <img src="1quidistance_reference_point_selection.png" width="45%" />
+  <img src="parallel_reference_vector_construction.png" width="45%" />
+</p>
+
+<p align="center">
+  <em>
+  Overview of the proposed sampling and reference construction process:
+  (top-left) sampling in the cube,
+  (top-right) projection onto the reference hyperplane,
+  (bottom-left) equidistant reference point selection,
+  (bottom-right) parallel reference vector construction.
+  </em>
+</p>
 
 The Alpha parameterized covex Pareto front shapes shown below, we can see that the curvature of the pareto front increases as alpha increaes.
 <table align="center">
